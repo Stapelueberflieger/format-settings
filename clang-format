@@ -54,3 +54,5 @@ PointerAlignment: Right
 
 TabWidth: 8
 IndentWidth: 8
+IndentAccessModifiers: false # Experimental
+AccessModifierOffset: -4  # Experimental
