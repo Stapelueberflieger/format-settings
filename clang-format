@@ -33,20 +33,19 @@ BinPackArguments: false
 BinPackParameters: false
 
 # Torvalds Style:
-BreakBeforeBraces: Custom
+BreakBeforeBraces: Linux
 BraceWrapping:
+  AfterControlStatement: false
   AfterFunction: true
-  AfterControlStatement: Never
+  AfterNamespace: false
   SplitEmptyFunction: true
   SplitEmptyRecord: true
   SplitEmptyNamespace: true
 
-BreakBeforeBraces: Linux
 
 SpaceAfterCStyleCast: true
 SpaceAfterLogicalNot: false
 SpaceAfterTemplateKeyword: false
-#SpaceAroundPointerQualifiers: Default
 SpaceBeforeAssignmentOperators: true
 SpaceBeforeParens: Never
 
@@ -54,5 +53,3 @@ PointerAlignment: Right
 
 TabWidth: 8
 IndentWidth: 8
-IndentAccessModifiers: false # Experimental
-AccessModifierOffset: -4  # Experimental
